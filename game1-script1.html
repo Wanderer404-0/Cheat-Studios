@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Script 1</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Script 1 for The Strongest Battlegrounds</h1>
+        <p>Description: KJ Script.</p>
+        <pre id="scriptContent">loadstring(game:HttpGet('https://raw.githubusercontent.com/Mautiku/ehh/main/strong%20guest.lua.txt'))()</pre>
+        <button class="button copy-button" onclick="copyToClipboard()">Copy Script</button>
+        <a href="../games/game1.html" class="button">Back to The Strongest Battlegrounds</a>
+    </div>
+
+    <script>
+        function copyToClipboard() {
+            const scriptContent = document.getElementById('scriptContent').innerText;
+            navigator.clipboard.writeText(scriptContent).then(() => {
+                alert('Script copied to clipboard!');
+            });
+        }
+    </script>
+</body>
+</html>

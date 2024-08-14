@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('cheat studios.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+/* Other styles */
+
+.container {
+    margin: 50px auto;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+pre {
+    background-color: #333;
+    color: #00ff00;
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto;
+    text-align: left;
+}
+
+.button {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 25px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #555;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #777;
+}
+
+.copy-button {
+    background-color: #28a745;
+}
+
+.copy-button:hover {
+    background-color: #218838;
+}
+
+/* Styles for the Discord button */
+.discord-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #7289da; /* Discord color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.discord-button:hover {
+    background-color: #5b6eae; /* Darker Discord color on hover */
+}
